@@ -1,0 +1,119 @@
+body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .app-container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      max-width: 700px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .youtube-icon {
+      margin-right: 10px;
+      font-size: 1.5em;
+      color: #FF0000;
+    }
+
+    .input-area {
+      margin-bottom: 20px;
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .url-input {
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      flex: 1;
+    }
+
+    .fetch-button,
+    .summarize-button,
+    .ask-button {
+      padding: 10px 15px;
+      background-color: #5cb85c;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .fetch-button:hover,
+    .summarize-button:hover,
+    .ask-button:hover {
+      background-color: #4cae4c;
+    }
+
+    .fetch-button:disabled,
+    .summarize-button:disabled,
+    .ask-button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+
+    .error-message {
+      color: #d9534f;
+      margin-top: 10px;
+    }
+
+    .video-info {
+      margin-bottom: 20px;
+    }
+
+    .thumbnail {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+
+    .summary-area {
+      margin-top: 20px;
+      text-align: left;
+    }
+
+    .summary-text {
+      background-color: #f9f9f9;
+      padding: 10px;
+      border: 1px solid #eee;
+      border-radius: 4px;
+      white-space: pre-line;
+    }
+
+    .question-area {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .question-input {
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      flex: 1;
+    }
+
+    .answer-text {
+      margin-top: 10px;
+      text-align: left;
+    }
